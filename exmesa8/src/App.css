@@ -1,0 +1,26 @@
+body{
+    margin-top: 20px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    background: rgb(18,0,36);
+    background: linear-gradient(90deg, rgba(18,0,36,1) 0%, rgba(9,98,121,0.36458333333333337) 41%, rgba(0,212,255,1) 100%);
+    
+
+}
+
+h3{
+    font-size: 1.5em;
+    font-weight: bold;
+    color:blue;
+}
+
+
+img {
+    flex-direction: row;
+    max-width: 70%;
+    height: 300px;
+    width: 300px;
+    border-radius: 30%;
+    margin-top: 20px;
+}
