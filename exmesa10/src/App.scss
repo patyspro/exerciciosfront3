@@ -1,0 +1,25 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: rgb(18,0,36);
+    background: linear-gradient(90deg, rgba(18,0,36,1) 0%, rgba(118,9,121,0.36458333333333337) 41%, rgba(0,212,255,1) 100%);
+  }
+  
+  h1{
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+h2{
+  color:purple;
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 2rem;
+}
