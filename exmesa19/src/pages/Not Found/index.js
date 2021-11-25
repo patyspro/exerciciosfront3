@@ -8,10 +8,12 @@ const NotFound = () => {
   const[count, setCount] = useState([5]);
 
   useEffect(() => {
-    setTimeout(() => {
+    let contador =setTimeout(() => {
         setCount(count => count - 1);
-    }, 1000);
+    }, 1000); 
     
+    if(count<1) clearTimeout(contador);
+     
     setTimeout(() => {
       navigate('/');
     }, 5000);
